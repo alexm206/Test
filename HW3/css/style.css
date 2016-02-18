@@ -1,0 +1,123 @@
+body {
+    width: 1366px;
+    height: 950px;
+    background-color: #f9f9f9;
+    font-family: "Open Sans" sans-serif;
+    font-size: 15px;
+}
+.container {
+    width: 1060px;
+    height: 950px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.logo {
+    padding-left: 46px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.menu {
+    height: 40px;
+    margin-left: 46px;
+    margin-right: 48px;
+    background-color: #5b5b5b;
+}
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 40px;
+    }
+.button:hover {
+    background-color: #3f3f3f;
+    cursor: pointer;
+}
+.sidebar {
+    float: left;
+    height: 240px;
+    width: 240px;
+    padding-left: 46px;
+    padding-top: 40px;
+}
+.button2 {
+    width: 240px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    padding-left: 24px;
+}
+.sidebar_button {
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px #c8c8c8 solid;
+}
+li:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+li:hover a {
+padding-left: 40px;
+}
+.photo {
+    margin-top: 40px;
+    margin-right: 48px;
+    border: 1px #c8c8c8 solid;
+    width: 678px;
+    height: 400px;
+    float: right;
+}
+.pic {
+    display:block;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.text_box {
+    width: 678px;
+    height: 160px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 48px;
+    text-align: left;
+}
+.text {
+    padding-left: 24px;
+}
+.menu2 {
+    height: 40px;
+    margin-left: 46px;
+    margin-right: 48px;
+    background-color: #e1e1e1;
+}
+.clear {
+    clear: both;
+}
+.button3 {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 40px;
+    }
+.button3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright {
+    display: inline-block;
+    float: right;
+    padding-right: 25px;
+    line-height: 40px;
+    vertical-align: middle;
+}
