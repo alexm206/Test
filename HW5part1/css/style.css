@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue";
+}
+.header {
+    width: auto;
+    background-color: #074f8d;
+    position: relative;
+    overflow: hidden;
+}
+.menu {
+    float: right;
+    clear: right;
+    margin-right: 20px;
+}
+.menu li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #5aaee6;
+    font-size: 14px;
+}
+.menu a:hover {
+    color: white;
+    background-color: #4eabda;
+    cursor: pointer;
+}
+.last-left {
+    border-right: 1px solid #4eabda;
+}
+.f-right {
+    display: inline-block;
+}
+.f-right img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.f-right a {
+    color: white;
+}
+.f-right:hover {
+    background-color: #4eabda;
+    cursor: pointer;
+}
+.s-right {
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+}
+.s-right a {
+    color: white;
+}
+.s-right:hover {
+    background-color: #4eabda;
+    cursor: pointer;
+}
+.s-right a:hover {
+    text-decoration: underline;
+}
+.s-right::before {
+    margin-left: 5px;
+}
+/*wrapper*/
+.wrapper {
+    height: 1026px;
+    width: 1215px;
+    background: url(../img/background.png);
+}
+.reg-form {
+    position: absolute;
+    height: 610px;
+    width: 560px;
+    left: 50%;
+    top: 50%;
+    margin: -220px 0 0 -280px;
+
+}
+.cadastre {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+.top {
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bottom {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.fb {
+    text-align: center;
+}
+.lfb {
+    margin-top: 30px;
+    height: 35px;
+    width: 276px;
+    border: 0px;
+    vertical-align: middle;
+    background: url(../img/fb-button.png)
+}
+.lines {
+    width: 276px;
+    height: 14px;
+    background: url(../img/lines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #999999;
+}
+.form {
+    width: 276px;
+    margin: 0 auto;
+}
+.enter-text {
+    width: 266px;
+    height: 35px;
+    background-color: black;
+    border: 0px;
+    padding-left: 10px;
+}
+.first {
+    text-align: center;
+    padding-top: 15px;
+    width: 276px;
+}
+.last {
+    text-align: center;
+    padding-top: 15px;
+    width: 276px;
+}
+.email {
+    text-align: center;
+    padding-top: 15px;
+    width: 276px;
+}
+.pass {
+    text-align: center;
+    padding-top: 15px;
+    width: 276px;
+}
+.conf-pass {
+    text-align: center;
+    padding-top: 15px;
+    width: 276px;
+}
+.checkbox {
+    text-align: left;
+    padding-top: 15px;
+    color: white;
+    width: 276px;
+}
+.create-acc {
+    padding-top: 15px;
+    text-align: center;
+}
+.CmA {
+    height: 35px;
+    width: 150px;
+    border: 0px;
+    text-align: center;
+    background-color: #3c8fce;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.privacy {
+    text-align: center;
+    font-size: 11px;
+}
+.p1 {
+    padding-top: 20px;
+    color: white;
+}
+.p2 {
+    padding-top: 3px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+.enter-text:hover {
+    background-color: #1b5288;
+    box-shadow: 0px 0px 19px 3px rgba(77,137,180,1);
+    cursor: pointer;
+}
+.checkbox:hover {
+    cursor: pointer;
+}
+.CmA:hover {
+    cursor: pointer;
+}
+.lfb:hover {
+    cursor: pointer;
+}
