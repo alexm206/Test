@@ -1,7 +1,7 @@
 
 .content {
-    width: 550px;
-    height: 650px;
+    width: 750px;
+    height: 850px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -17,9 +17,11 @@ td {
 }
 td {
     width: 50px;
-    height: 30px;
+    height: 50px;
 }
-.yellow {
+.yellow,
+.yellow2,
+.yellow3 {
     background-color: yellow;
 }
 .red {
@@ -28,6 +30,61 @@ td {
 .blue {
     background-color: blue;
 }
-.gray {
+.gray,
+.gray2 {
     background-color: gray;
+}
+.cell-1 {
+    height: 50px;
+    width: 150px;
+}
+.cell-2 {
+    height: 50px;
+    width: 300px;
+}
+.yellow,
+.gray2 {
+    height: 50px;
+    width: 200px;
+}
+.cell-3,
+.yellow3 {
+    height: 200px;
+    width: 50px;
+}
+.red {
+    height: 400px;
+    width: 400px;
+}
+.yellow2 {
+    height: 200px;
+    width: 200px;
+}
+.cell-4 {
+    height: 300px;
+    width: 50px;
+}
+.cell-5,
+.cell-6 {
+    height: 200px;
+    width: 100px;
+}
+.gray {
+    height: 100px;
+    width: 100px;
+}
+.cell-7,
+.cell-8,
+.cell-9,
+.cell-10 {
+    height: 100px;
+    width: 200px;
+}
+.blue {
+    height: 150px;
+    width: 200px;
+}
+.cell-11 {
+    height: 50px;
+    width: 400px;
 }
