@@ -1,23 +1,25 @@
-
+body {
+    background-color: #dddddd;
+}
 .content {
     width: 750px;
     height: 850px;
     margin: 0 auto;
     margin-top: 50px;
+    border: 1px solid;
 }
 table {
     width: 100%;
     height: 100%;
     border-collapse: collapse;
-    border: 11px solid white;
+    border-style: hidden;
 }
 tr,
 td {
     border: 10px solid black;
 }
 td {
-    width: 50px;
-    height: 50px;
+    background-color: white;
 }
 .yellow,
 .yellow2,
