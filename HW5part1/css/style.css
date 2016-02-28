@@ -124,14 +124,33 @@ body {
 }
 .lfb {
     margin-top: 30px;
+    line-height: 35px;
     height: 35px;
     width: 276px;
     border: 0px;
-    vertical-align: middle;
-    background: url(../img/fb-button.png)
+    background-color: #364e8c;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    /*background: url(../img/fb-button.png)*/
+}
+.lfb span {
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.lfb span img {
+    float: left;
+    padding: 5px 13px 10px 14px;
+    border-right: 1px solid #1f3d71;
+}
+.symb {
+    margin-left: 20px;
 }
 .lfb:hover {
-    box-shadow: 0px 0px 19px 3px rgba(77,137,180,1);
+    cursor: pointer;
+    background-color: #3d92cf;
 }
 .lines {
     width: 276px;
@@ -195,13 +214,13 @@ body {
     width: 150px;
     border: 0px;
     text-align: center;
-    background-color: #3c8fce;
+    background-color: #364e8c;
     color: white;
     font-size: 14px;
     border-radius: 5px;
 }
 .CmA:hover {
-    box-shadow: 0px 0px 19px 3px rgba(77,137,180,1);
+    background-color: #3d92cf;
 }
 .privacy {
     text-align: center;
@@ -217,9 +236,11 @@ body {
     color: black;
     font-weight: bold;
 }
-.enter-text:hover {
+.enter-text:focus {
     background-color: #1b5288;
     box-shadow: 0px 0px 19px 3px rgba(77,137,180,1);
+}
+.enter-text:hover {
     cursor: pointer;
 }
 .checkbox:hover {
