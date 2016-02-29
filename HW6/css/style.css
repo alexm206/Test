@@ -4,6 +4,7 @@
 @import "center.css";
 @import "right-menu.css";
 @import "footer-menu.css";
+@import "temp.css";
 @font-face {
     font-family: 'Lucida Sans Unicode Regular';
     src: url('../fonts/lsansuni-webfont.eot');
