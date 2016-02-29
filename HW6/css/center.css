@@ -1,0 +1,43 @@
+
+.showcase {
+    width: 525px;
+    height: 625px;
+    float: left;
+    background: linear-gradient(to bottom, #e2e6e7 0%,#b8c4ca 48%,#94a7b0 100%);
+    border-radius: 5px;
+}
+.tire1,
+.tire2,
+.tire3 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.tire1 {
+    margin-left: 25px;
+}
+.tire3 {
+    margin-right: 25px;
+}
+.showcase p {
+    text-align: center;
+}
+.showcase figcaption {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    color: #114165;
+    font-style: italic;
+    font-weight: bold;
+}
+.showcase span {
+    font-size: 12px;
+}
+.row1 {
+    font-size: 15px;
+    color: #206988;
+}
+.row2 {
+    font-size: 13px;
+    color: #1f2528;
+}

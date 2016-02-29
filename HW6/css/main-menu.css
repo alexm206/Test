@@ -1,0 +1,76 @@
+.main-menu {
+    width: 909px;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #1b1d20;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px 0px rgba(74,74,74,1);
+}
+.menu1,
+.menu2,
+.about,
+.payment,
+.delivery,
+.blog,
+.contacts,
+.img-basket,
+.goods,
+.sum {
+    display: inline-block;
+}
+.menu1 {
+    margin-left: 120px;
+}
+.about a,
+.payment a,
+.delivery a,
+.blog a,
+.contacts a {
+    font-size: 14px;
+    color: #9ca5a9;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.about a:focus,
+.payment a:focus,
+.delivery a:focus,
+.blog a:focus,
+.contacts a:focus {
+    color: white;
+    background-color: #154b6d;
+    border-radius: 12px;
+}
+.menu2 {
+    margin-left: 50px;
+    float: right;
+    margin-right: 15px;
+}
+.img-basket {
+    line-height: 35px;
+}
+.ib {
+    vertical-align: middle;
+}
+.goods,
+.sum {
+    font-size: 11px;
+    color: #9ca5a9;
+    font-family: Arial;
+}
+.dig1,
+.dig2 {
+    color: #0d5a8f;
+}
+.dig1 {
+    margin-left: 2px;
+}
+.dig2 {
+    margin-left: 10px;
+}
+.sum {
+    margin-left: 5px;
+}

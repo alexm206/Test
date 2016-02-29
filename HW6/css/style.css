@@ -1,0 +1,67 @@
+@import "header.css";
+@import "main-menu.css";
+@import "left-menu.css";
+@import "center.css";
+@import "right-menu.css";
+@import "footer-menu.css";
+@font-face {
+    font-family: 'Lucida Sans Unicode Regular';
+    src: url('../fonts/lsansuni-webfont.eot');
+    src: url('../fonts/lsansuni-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lsansuni-webfont.woff2') format('woff2'),
+         url('../fonts/lsansuni-webfont.woff') format('woff'),
+         url('../fonts/lsansuni-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Lucida Sans Unicode Regular", Arial, Courier, sans-serif;
+}
+.main {
+    width: 909px;
+    margin: 0 auto;
+}
+header {
+    margin: 15px 0 10px 0;
+    width: 910px;
+    min-height: 30px;
+}
+.head-img {
+    width: 909px;
+    height: 237px;
+    margin: 0 auto;
+    background: url(../img/head-img.png);
+    background-size: cover;
+}
+.forms {
+    width: 909px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.container {
+    width: 909px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.brands-img {
+    line-height: 90px;
+    height: 90px;
+    margin: 0 auto;
+    width: 909px;
+    text-align: center;
+}
+.brands-img img {
+    margin-left: 12px;
+}
+footer {
+    width: 909px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #213a4d;
+}
