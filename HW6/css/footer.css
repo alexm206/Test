@@ -26,10 +26,10 @@ footer {
 .down-menu a:focus {
     color: #458da9;
 }
-.vert-line {
+.vert-line2 {
     display: inline-block;
     position: absolute;
-    top: 6px;
+    top: 12px;
     width: 1px;
     height: 11px;
     margin-left: 1px;
