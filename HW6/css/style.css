@@ -3,8 +3,7 @@
 @import "left-menu.css";
 @import "center.css";
 @import "right-menu.css";
-@import "footer-menu.css";
-@import "temp.css";
+@import "footer.css";
 @font-face {
     font-family: 'Lucida Sans Unicode Regular';
     src: url('../fonts/lsansuni-webfont.eot');
@@ -18,51 +17,41 @@
 body {
     font-family: "Lucida Sans Unicode Regular", Arial, Courier, sans-serif;
 }
-.main {
-    width: 909px;
+.main-container {
+    position: relative;
+    width: 1000px;
+    height: 1310px;
     margin: 0 auto;
 }
 header {
-    margin: 15px 0 10px 0;
-    width: 910px;
-    min-height: 30px;
+    position: absolute;
+    left: 45px;
+    height: 330px;
+    width: 912px;
 }
-.head-img {
-    width: 909px;
+.banner {
+    position: absolute;
+    top: 54px;
+    left: 45px;
+    margin: 0;
     height: 237px;
-    margin: 0 auto;
-    background: url(../img/head-img.png);
-    background-size: cover;
-}
-.forms {
     width: 909px;
-    margin: 0 auto;
-    padding-top: 10px;
+}
+.forms{
+    position: absolute;
+    top: 344px;
+    left: 49px;
 }
 .container {
-    width: 909px;
-    margin: 0 auto;
+    position: absolute;
+    top: 493px;
+    left: 45px;
+    width: 911px;
     overflow: hidden;
 }
-.clearfix:after {
-    content: '';
-    display: block;
-    height: 0;
-    clear: both;
-}
 .brands-img {
-    line-height: 90px;
-    height: 90px;
-    margin: 0 auto;
-    width: 909px;
-    text-align: center;
-}
-.brands-img img {
-    margin-left: 12px;
-}
-footer {
-    width: 909px;
-    height: 100px;
-    margin: 0 auto;
-    background-color: #213a4d;
+    position: absolute;
+    left: 163px;
+    top: 1158px;
+    overflow: hidden;
 }

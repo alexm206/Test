@@ -1,0 +1,72 @@
+footer {
+    position: absolute;
+    top: 1210px;
+    left: 46px;
+    width: 908px;
+    height: 101px;
+    background-color: #213a4d;
+}
+.down-menu {
+    float: left;
+	height: 15px;
+    margin-top: 12px;
+    margin-left: 295px;
+    overflow: hidden;
+}
+.down-menu a {
+    color: #bec6c9;
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+}
+.down-menu a:hover {
+    color: #458da9;
+}
+.down-menu a:focus {
+    color: #458da9;
+}
+.vert-line {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    width: 1px;
+    height: 11px;
+    margin-left: 1px;
+    color: #bec6c9;
+}
+.about-us {
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 13px;
+    margin-right: 7px;
+}
+.deliver {
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 15px;
+    margin-right: 7px;
+}
+.articles {
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 14px;
+    margin-right: 7px;
+}
+.contact {
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 18px;
+    margin-right: 7px;
+}
+.site {
+    display: block;
+    margin-left: 380px;
+    margin-top: 35px;
+    color: #7f4740;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}

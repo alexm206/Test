@@ -1,37 +1,58 @@
-
 .showcase {
-    width: 525px;
-    height: 625px;
-    float: left;
-    background: linear-gradient(to bottom, #e2e6e7 0%,#b8c4ca 48%,#94a7b0 100%);
-    border-radius: 5px;
+    float:left;
+    margin-left: 7px;
+    width: 526px;
+    height: 627px;
+    background: linear-gradient(to top, rgba(35, 75, 93, 0.5) 0%, rgba(118, 141, 151, 0.5) 57%, rgba(201, 207, 209, 0.5) 100%);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.showcase p {
+    text-align: center;
+    font-family: LucidaSansUnicode;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+}
+.showcase span {
+    font-size: 12px;
 }
 .tire1,
 .tire2,
 .tire3 {
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-.tire1 {
+    margin-top: 15px;
     margin-left: 25px;
 }
-.tire3 {
-    margin-right: 25px;
+.tire4,
+.tire5,
+.tire6 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 25px;
 }
-.showcase p {
-    text-align: center;
+.tire7,
+.tire8,
+.tire9 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.tire1,
+.tire4,
+.tire7 {
+    margin-left: 20px;
+}
+.tire3 {
+    margin-right: 20px;
 }
 .showcase figcaption {
+    margin-top: 3px;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     color: #114165;
     font-style: italic;
     font-weight: bold;
-}
-.showcase span {
-    font-size: 12px;
 }
 .row1 {
     font-size: 15px;
