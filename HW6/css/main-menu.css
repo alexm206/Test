@@ -51,7 +51,7 @@
 .blog a:focus,
 .contactus a:focus {
     color: white;
-    background-color: #154b6d;
+    background: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
     border-radius: 12px;
 }
 .about a:hover,
@@ -60,7 +60,7 @@
 .blog a:hover,
 .contactus a:hover {
     color: white;
-    background-color: #154b6d;
+    background: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
     border-radius: 12px;
 }
 .menu2 {
