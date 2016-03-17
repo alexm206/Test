@@ -1,0 +1,51 @@
+.section-4 {
+    width: 100%;
+    height: 122px;
+    background: #f9f9f9;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+}
+.wrapper--v4 {
+    height: 122px;
+    margin: 0 auto;
+}
+.link {
+    display: inline-block;
+    width: 69px;
+    height: 64px;
+}
+
+.n--link1 {
+    background: url(../img/logo-1.png) bottom center no-repeat;
+    margin: 24px 28px 0 85px;
+}
+.n--link2 {
+    background: url(../img/logo-2.png) bottom center no-repeat;
+    width: 72px;
+    height: 64px;
+    margin: 24px 0 0 37px;
+}
+.n--link3 {
+    background: url(../img/logo-3.png) bottom center no-repeat;
+    width: 65px;
+    height: 65px;
+    margin: 24px 15px 0 64px;
+}
+.n--link4 {
+    background: url(../img/logo-4.png) bottom center no-repeat;
+    width: 50px;
+    height: 63px;
+    margin: 24px 16px 0 44px;
+}
+.n--link5 {
+    background: url(../img/logo-5.png) bottom center no-repeat;
+    width: 103px;
+    height: 21px;
+    margin: 0 23px 24px 52px;
+}
+.n--link6 {
+    background: url(../img/logo-6.png) bottom center no-repeat;
+    width: 78px;
+    height: 61px;
+    margin: 26px 0px 0 29px;
+}

@@ -1,0 +1,291 @@
+@media (min-width: 480px) and (max-width: 767px) {
+    .section-1 {
+        height: 546px;
+    }
+    .section-2 {
+        height: 600px;
+    }
+    .section-3 {
+        height: 786px;
+    }
+    .section-4 {
+        height: 235px;
+    }
+    .section-5 {
+        height: 670px;
+    }
+    .section-6 {
+        height: 202px;
+        background-size: cover;
+    }
+    .wrapper {
+        min-width: 480px;
+        max-width: 767px;
+        height: 200px;
+    }
+    .wrapper--v2 {
+        height: 600px;
+    }
+    .wrapper--v3 {
+        height: 786px;
+    }
+    .wrapper--v4 {
+        max-width: 480px;
+        height: 235px;
+        margin: 0 auto;
+    }
+    .wrapper--v6 {
+        max-width: 480px;
+        height: 202px;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 160px;
+        float: none;
+        margin: 0 auto;
+        padding-top: 8.2%;
+        overflow: hidden;
+    }
+    .home {
+        display: none;
+    }
+    .home--v2 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 23px;
+        width: 105px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        transition-delay: 0.05s;
+    }
+    .home--link {
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 2px;
+        margin-bottom: 4px;
+        width: 47px;
+        border-bottom: 2px solid #edbfff;
+        text-align: center;
+    }
+    .menu--v2 {
+        display: none;
+        transition: all 0.2s ease;
+        transition-delay: 0.05s;
+        float: none;;
+        padding: 0;
+        box-sizing: inherit;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .item--v2 {
+        text-align: center;
+        list-style-type: none;
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+    }
+    .item--v2:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .link--v2 {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+    .link--v2:hover {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #edbfff;
+    }
+    .home:hover > .menu--v2 {
+        display: block;
+    }
+    .home:hover {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 200px;
+        height: 227px;
+        background-color: rgba(54, 41, 62, 0.7);
+        border: 1px solid #051116;
+        border-radius: 8px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+    .item--v2last {
+        text-align: center;
+        list-style-type: none;
+        border-top: 1px solid #523f5a;
+    }
+    .item--v2last:hover {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 0px 0px 8px 8px;
+        margin: 0 auto;
+    }
+    .link--v2last {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+    .link--v2last:hover {
+        border-bottom: 2px solid #edbfff;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .post__head {
+        font-size: 36px;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+    .post__subhead {
+        font-size: 18px;
+        margin-left: 150px;
+    }
+    .post__box {
+        display: none;
+    }
+    .slider {
+        height: 246px;
+        margin-top: 0;
+        clear: both;
+    }
+    .slider__image {
+        width: 192px;
+        height: 304px;
+        top: -10px;
+        left: -50px;
+    }
+    .wrapper--slider::before {
+        top: 320px;
+    }
+    .wrapper--slider::after {
+        top: 320px;
+    }
+    .slider-bottom {
+        height: 100px;
+    }
+    .wrapper--slider-bottom {
+        height: 100px;
+        width: 83px;
+        margin: 0 auto;
+    }
+    .post {
+        height: 200px;
+        padding: 0;
+    }
+    .slider__image-cont {
+        height: 200px;
+    }
+    .points {
+        float: none;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .article {
+        position: relative;
+        display: inline-block;
+        width: 70%;
+        height: 25%;
+        padding: 0 0 0 10%;
+    }
+    .article__main {
+        height: 60px;
+    }
+    .article__foot {
+        padding-top: 10px;
+        margin-right: 25px;
+    }
+    .article:first-child {
+        padding: 10% 0 0 10%;
+    }
+    .recent-upd {
+        padding: 15% 0 0 20%;
+        width: 55%;
+    }
+    .article--testimonial {
+        width: 70%;
+        float: none;
+        margin: 0 auto;
+        height: 35%;
+    }
+    .article__container {
+        padding-right: 0;
+    }
+    .text--box {
+        max-width: 370px;
+        height: 270px;
+        position: relative;
+        padding: 15px 30px 0 30px;
+        background: white;
+    }
+    .text--p2 {
+        width: 250px;
+    }
+    .link--p4 {
+        display: none;
+    }
+    .link--p5 {
+        display: block;
+        margin-right: 30px;
+    }
+    .n--link1 {
+        margin: 37px 28px 0 54px;
+    }
+    .n--link2 {
+        margin: 37px 0 0 27px;
+    }
+    .n--link3 {
+        margin: 37px 15px 0 54px;
+    }
+    .n--link6 {
+        margin: 28px 17px 0 19px;
+    }
+    .logo--ver2,
+    .text--v2,
+    .recentv4 {
+        display: none;
+    }
+    .recentv2,
+    .recentv3,
+    .recent {
+        display: block;
+        font-size: 24px;
+    }
+    .v2 {
+        float: left;
+        overflow: hidden;
+        height: 100%;
+        padding: 5% 0 0 20%;
+        margin-right: 25px;
+        width: 75%;
+    }
+    .v2:first-child {
+        padding: 10% 0 0 20%;
+    }
+    .text {
+        display: block;
+        width: 207px;
+        height: 173px;
+        letter-spacing: -0.08px;
+        line-height: 1.5;
+        overflow: hidden;
+    }
+
+    .text {
+        width: 430px;
+        height: 93px;
+        overflow: hidden;
+    }
+    .v2:last-child {
+        padding-top: 0;
+    }
+    .design {
+        margin-right: 200px;
+    }
+    .footer-item {
+        margin-right: 10px;
+    }
+}
