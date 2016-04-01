@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.test {
+  width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(top, #4e7199 0%,#75b7ea 51%,#a2c8e5 100%);
+}
+.test__topic {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #4f4e4e;
+  padding: 30px 0 30px 0;
+}
+.question__name {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  color: #4f4e4e;
+}
+.answer-title {
+  display: block;
+  line-height: 20px;
+  height: 20px;
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #4f4e4e;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.answer-checkbox {
+  margin-right: 10px;
+}
+.test__sbmbtn {
+  display: block;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: #4f4e4e;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #c5deea 0%,#8abbd7 31%,#066dab 100%);
+  -webkit-box-shadow: -1px 3px 50px 2px rgba(250,131,3,1);
+  -moz-box-shadow: -1px 3px 50px 2px rgba(250,131,3,1);
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: -1px 3px 50px -2px rgba(252,252,252,1);
+}
+.test__sbmbtn:focus {
+  font-size: 20.5px;
+  text-shadow: 0 0 0.2em #fdfdfd
+}
