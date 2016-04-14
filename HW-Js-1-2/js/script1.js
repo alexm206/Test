@@ -5,18 +5,31 @@
     var exponent = +prompt('Введите степень', ''); // ввод степени
     var result = number; // объявляем переменную для результат и присваиваем ей начальное значение равное базовому числу
     // выводим в консоль введенные данные
+
     console.log('Введенное число - ', number);
     console.log('Введенная степень - ', exponent);
-
-    if (exponent>0) {
-      result *= number;
-      console.log(result);
-      alert('Результат возведения в степень ' + result);
+    if ((Math.trunc(number) == number)&&(Math.trunc(exponent) == exponent)) {
+      operations();
     } else {
-      exponent = Math.abs(exponent);
-      result = 1/result;
-      console.log(result);
-      alert('Результат возведения в степень ' + result);
+      alert('Invalid data entered');
+      console.log('Invalid data entered');
+    };
+
+    function operations() {
+      if (exponent>0) {
+        result *= number;
+        console.log(result);
+        alert('Результат возведения в степень ' + result);
+      } else if (exponent === 0){
+        result = 1;
+        console.log('Результат возведения в степень ' + result);
+        alert('Результат возведения в степень ' + result);
+      } else {
+        exponent = Math.abs(exponent);
+        result = 1/result;
+        console.log('Результат возведения в степень ' + result);
+        alert('Результат возведения в степень ' + result);
+      }
     }
     // цикл для выполнения возведения в степень
   //   for (var i = 1; i < exponent; i++) { // объявляем счетчик, пока он меньше степени, работает цикл, итерация - счетчик+1
