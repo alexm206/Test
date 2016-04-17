@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Porsche Regular';
+    src: url('../fonts/porsche-webfont.eot');
+    src: url('../fonts/porsche-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/porsche-webfont.woff2') format('woff2'),
+         url('../fonts/porsche-webfont.woff') format('woff'),
+         url('../fonts/porsche-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'A Lcd Nova Regular';
+    src: url('../fonts/a_lcdnova_allfont.ru-webfont.eot');
+    src: url('../fonts/a_lcdnova_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/a_lcdnova_allfont.ru-webfont.woff2') format('woff2'),
+         url('../fonts/a_lcdnova_allfont.ru-webfont.woff') format('woff'),
+         url('../fonts/a_lcdnova_allfont.ru-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.timer {
+    width: 100%;
+    height: 10000px;
+    margin: 0 auto;
+    background-color: #006363;
+}
+.timer__name {
+    font-size: 35px;
+    color: #009999;
+    font-family: 'Porsche Regular', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+.timer__text {
+    font-size: 55px;
+    line-height: 65px;
+    color: #FF7400;
+    font-family: 'A Lcd Nova Regular', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 7px;
+
+}
+.button-container {
+    text-align: center;
+}
+.timer__start, .timer__pause, .timer__split, .timer__reset {
+    margin: 20px 10px 20px 15px;
+    font-size: 25px;
+    font-family: 'Porsche Regular', sans-serif;
+    color: #006363;
+}
+.timer__start {
+    background-color: #00CC00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.timer__pause {
+    background-color: #FF7400;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.timer__split {
+    background-color: #FFD600;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.timer__reset {
+    background-color: #FF0000;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.timer-warnings p {
+    font-family: 'A Lcd Nova Regular', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FF7400;
+}
