@@ -1,0 +1,42 @@
+.jqCheck {
+  width: 35px;
+  height: 34px;
+  display: inline-block;
+  cursor: crosshair;
+  background: url(../img/sprite.png);
+  background-position: 0px 0px;
+  overflow: hidden;
+  float: right;
+}
+
+.jqCheck:hover {
+  background-position: -36px 0px;
+}
+
+.jqCheck-checked {
+  background-position: -72px 0px;
+}
+
+.jqCheck-checked:hover {
+  background-position: -72px 0px;
+}
+
+.jqCheck input {
+  margin-left: -200px;
+}
+
+.jqCheck-disabled {
+  background-position: -108px 0px;
+}
+
+.jqCheck-disabled:hover {
+  background-position: -108px 0px;
+}
+
+.label-jch {
+  display: inline-block;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #ff7800;
+  font-size: 34px;
+}

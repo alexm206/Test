@@ -1,0 +1,51 @@
+@import "jcarousel.css";
+@import "selectric.css";
+@import "jquery.checkbox.css";
+@import "css.checkbox.css";
+@import "menu.css";
+@font-face {
+    font-family: 'Jura Demibold';
+    src: url('../fonts/jura-demibold-webfont.eot');
+    src: url('../fonts/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jura-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/jura-demibold-webfont.woff') format('woff'),
+         url('../fonts/jura-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: url(../img/background.jpg);
+    font-family: 'Jura Demibold';
+    color: white;
+}
+.header {
+    margin: 50px auto 10px;
+    text-align: center;
+    color: #FF7800;
+    font-size: 25px;
+}
+.wrapper {
+    position: relative;
+    margin: 50px auto 50px;
+    border: 8px solid #FF7800;
+    width: 800px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 80px #777;
+}
+form {
+    width: 250px;
+    margin: 0 auto;
+}
+.checkboxes-wrapper {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.jquery-checkbox {
+    float: left;
+}
+.css-checkbox {
+    float:right;
+    margin-top: -8px;
+}

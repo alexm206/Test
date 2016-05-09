@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.3.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+  <script type="text/javascript" src="js/jquery.selectric.js"></script>
+  <script type="text/javascript" src="js/jquery-checkbox.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JS Homework 9-10</title>
+</head>
+<body>
+  <div class="menu-wrapper clearfix">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="#" class="menu-link">Germany</a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Mercedes</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">E-Klasse</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Audi</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">A6</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">BMW</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">5 Series</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Volkswagen</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Passat</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Opel</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Insignia</a></li>
+            </ul>
+          </li>
+        </ul>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Japan</a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Toyota</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Camry</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Honda</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Accord</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Mazda</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">6</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">South Korea</a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">KIA</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Optima</a></li>
+            </ul>
+          </li>
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Hyundai</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Genesis</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">USA</a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Ford</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Mondeo</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Czech</a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a href="#" class="submenu-link">Skoda</a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#" class="submenu-link">Superb</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <div class="jcarousel">
+      <ul>
+          <li><a href=""><img src="img/A6.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/5serie.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/accord.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/camry.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/Eclasse.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/genesis.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/insignia.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/mazda6.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/mondeo.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/optima.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/passat.jpg" alt="" target="_blank"></a></li>
+          <li><a href=""><img src="img/superb.jpg" alt="" target="_blank"></a></li>
+      </ul>
+    </div>
+    <a class="jcarousel-control-prev" href="#">‹</a>
+    <div class="jcarousel-pagination">
+    </div>
+    <a class="jcarousel-control-next" href="#">›</a>
+  </div>
+  <form action="#" method="post">
+    <label for="car-brand"></label>
+      <select class="car-brand" name="car-brand" id="car-brand" tabindex="1">
+        <option value="">--Choose your car brand--</option>
+        <option value="1">Audi</option>
+        <option value="2">Bmw</option>
+        <option value="3">Honda</option>
+        <option value="4">Toyota</option>
+        <option value="5">Mercedes</option>
+        <option value="6">Hyundai</option>
+        <option value="7">Opel</option>
+        <option value="8">Mazda</option>
+        <option value="9">Ford</option>
+        <option value="10">Kia</option>
+        <option value="11">Volkswagen</option>
+        <option value="12">Skoda</option>
+      </select>
+  </form>
+  <div class="checkboxes-wrapper">
+    <div class="jquery-checkbox">
+      <form class="jqchb" action="#" method="post">
+        <div><label class="label-jch" for="ch1">label 1</label><input type="checkbox" class="jqCheck" id="ch1" tabindex="1" /></div>
+        <div><label class="label-jch" for="ch2">label 2</label><input type="checkbox" class="jqCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+        <div><label class="label-jch" for="ch3">label 3</label><input type="checkbox" class="jqCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+      </form>
+    </div>
+    <div class="css-checkbox">
+      <div>
+        <input type="checkbox" id="cch1" class="cssCheck"/>
+        <label class="label-cch cch1" for="cch1">label 1</label>
+      </div>
+      <div>
+        <input type="checkbox" id="cch2" checked="checked" class="cssCheck"/>
+        <label class="label-cch" for="cch2">label 2</label>
+      </div>
+      <div>
+        <input type="checkbox" id="cch3" checked="checked" disabled="disabled" class="cssCheck"/>
+        <label class="label-cch" for="cch3">label 3</label>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.menu-wrapper {
+  background: #FF9A40;
+  font-family: 'Jura Demibold';
+}
+.menu {
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
+}
+.menu-item {
+  position: relative;
+  display: block;
+  float: left;
+  width: 20%;
+}
+.menu-link, .submenu-link {
+  display: block;
+  width: 100%;
+  line-height: 35px;
+  color: white;
+  background: rgba(255, 154, 64, 0.7);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.submenu-link {
+  transform: rotateX(90deg);
+  transition: all .5s;
+}
+.menu-link:hover, .submenu-link:hover {
+  transition: background .3s;
+  background: rgba(255, 120, 0, 1);
+}
+.menu-item:hover > .submenu {
+  visibility: visible;
+}
+.menu-item:hover > .submenu > .submenu-item > .submenu-link {
+  transition: all .5s;
+  transform: rotateX(0deg);
+}
+.submenu-item:hover > .submenu > .submenu-item > .submenu-link {
+  transition: all .5s;
+  transform: rotateX(0deg);
+}
+.submenu-item:hover > .submenu {
+  visibility: visible;
+}
+.submenu {
+  visibility: hidden;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.submenu-item {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.submenu-item .submenu {
+  margin: -37px;
+  left: 109%;
+}
+.dropdown > a:after {
+  content: '›';
+  position: absolute;
+  right: 5%;
+  transition: all .3s;
+}
+.menu-item:hover.dropdown > a:after {
+  margin-top: 2px;
+  transform: rotateZ(90deg);
+}
+
+.submenu-item:hover.dropdown > a:after {
+  margin-top: 2px;
+  transform: rotateZ(90deg);
+}
+
+
+.clearfix:after {
+content: '.';
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}

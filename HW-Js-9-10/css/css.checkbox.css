@@ -1,0 +1,44 @@
+.cssCheck {
+	position: absolute;
+  display: none;
+}
+
+.label-cch {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff7800;
+  font-size: 34px;
+}
+
+.label-cch:after {
+	content: " ";
+	display: inline-block;
+	width: 35px;
+	height: 34px;
+	background: url(../img/sprite.png) 0 0 no-repeat;
+	position: relative;
+	top: 6px;
+	margin-left: 20px;
+	cursor: crosshair;
+}
+.cch1:after {
+	left: 12px;
+}
+.label-cch:after:checked {
+  background-position: -72px 0px;
+}
+.cssCheck:checked + .label-cch:after {
+  background-position: -72px 0px;
+}
+.label-cch:hover:after {
+  background-position: -36px 0px;
+}
+.cssCheck:checked + .label-cch:hover:after {
+  background-position: -72px 0px;
+}
+.cssCheck:disabled + .label-cch:after {
+  background-position: -108px 0px;
+}
+.cssCheck:disabled + .label-cch:hover:after {
+  background-position: -108px 0px;
+}
