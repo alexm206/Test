@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Jura Demibold';
+    src: url('../fonts/jura-demibold-webfont.eot');
+    src: url('../fonts/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jura-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/jura-demibold-webfont.woff') format('woff'),
+         url('../fonts/jura-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+body {
+  font-family: 'Jura Demibold';
+  background: url(../img/background.jpg);
+  color: white;
+}
+.carousel-element p {
+  margin-top: 15px;
+  text-align: center;
+}
+.carousel-element p:hover {
+  color: #FF8800;
+  cursor: text;
+}
+.carousel-hider {
+    width: 500px;
+    overflow: hidden;
+    float: left;
+    margin: 0 auto;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 150px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #FF7800;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+/* tmpl */
+.document {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Jura Demibold';
+    color: #ff8800;
+}
+.photo img {
+    width: 150px;
+    height: 200px;
+}
+.fio {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.iam {
+    margin-left: 15%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.line {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.reason_text {
+    margin-left: 15%;
+}
+.reasons_list {
+    margin-left: 17%;
+}
+
+.phone_number {
+    margin-left: 15%;
+}
+.profile {
+    margin-left: 15%;
+}
+.profile a {
+    text-decoration: none;
+    color: white;
+}
+.feedback {
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+.photo {
+  text-align: center;
+}
