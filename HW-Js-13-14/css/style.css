@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Jura Demibold';
+    src: url('../fonts/jura-demibold-webfont.eot');
+    src: url('../fonts/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jura-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/jura-demibold-webfont.woff') format('woff'),
+         url('../fonts/jura-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'Jura Demibold', sans-serif;
+  background: url(../img/background.png);
+  background-size: cover;
+}
+.wrapper {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  /*background: -webkit-linear-gradient(top, #4e7199 0%,#75b7ea 51%,#a2c8e5 100%);*/
+  /*border-radius: 20px;*/
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: #4f4e4e;
+  padding: 30px 0 30px 0;
+}
+.question {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  color: #4f4e4e;
+}
+label {
+  display: block;
+  line-height: 20px;
+  height: 20px;
+  font-size: 18px;
+  color: #4f4e4e;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+input {
+  margin-right: 10px;
+}
+.check {
+  font-family: 'Jura Demibold';
+  display: block;
+  font-size: 20px;
+  color: white;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(93,118,137,1) 100%);
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+.check:hover {
+  font-size: 20.5px;
+  text-shadow: 0 0 0.2em #fdfdfd
+}

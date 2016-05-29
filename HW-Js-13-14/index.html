@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Homework JS 13-14</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/lodash.core.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <script type="text/template" id="testId">
+      <div class="wrapper">
+          <div class="heading"><%= returnData.title.value %></div>
+          <% returnData.question_list.forEach(function(item, n) { %>
+          <data-div onClick="answersArr.fillArray(event);" >
+          <div class="question"><%- item.question %></div>
+              <% item.options.forEach(function(variant, i) { %>
+              <label>
+                  <input id="ch<%=n+''+i%>" data-label="<%=variant%>" data-num="<%=n%>" data-go="true" class="option" type="radio" name="ch<%=n%>"> <%= variant %>
+              </label></br>
+              <% }); %>
+          </data-div>
+          <% }); %>
+          <input class="check" type="submit" value="Проверить">
+      </div>
+    </script>
+  </body>
+</html>
