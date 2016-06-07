@@ -1,0 +1,61 @@
+.logo {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -8px;
+  font-family: sans-serif;
+}
+.N {
+  color: blue;
+}
+.A {
+  color: red;
+}
+.C {
+  color: orange;
+}
+.H {
+  color: dodgerblue;
+}
+.F {
+  color: green;
+}
+.O {
+  color: blue;
+}
+.R {
+  color: red;
+}
+.S {
+  color: green;
+  transform: rotate(15deg);
+}
+.U {
+  color: red;
+}
+.G {
+  color: green;
+}
+.suchen {
+  /*width: 75%;
+  margin: 0 auto;*/
+  text-align: center;
+}
+.search {
+  border: 1px dodgerblue solid;
+  width: 800px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.button {
+  display: block;
+  width: 250px;
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
