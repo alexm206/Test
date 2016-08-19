@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'bravorgregular';
+    src: url('../fonts/bravorg-webfont.eot');
+    src: url('../fonts/bravorg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bravorg-webfont.woff2') format('woff2'),
+         url('../fonts/bravorg-webfont.woff') format('woff'),
+         url('../fonts/bravorg-webfont.ttf') format('truetype'),
+         url('../fonts/bravorg-webfont.svg#bravorgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bravoscregular';
+    src: url('../fonts/bravosc-webfont.eot');
+    src: url('../fonts/bravosc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bravosc-webfont.woff2') format('woff2'),
+         url('../fonts/bravosc-webfont.woff') format('woff'),
+         url('../fonts/bravosc-webfont.ttf') format('truetype'),
+         url('../fonts/bravosc-webfont.svg#bravoscregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bad_scriptregular';
+    src: url('../fonts/badscript-regular-webfont.eot');
+    src: url('../fonts/badscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/badscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/badscript-regular-webfont.woff') format('woff'),
+         url('../fonts/badscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/badscript-regular-webfont.svg#bad_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nordregular';
+    src: url('nord_bold-webfont.eot');
+    src: url('nord_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nord_bold-webfont.woff2') format('woff2'),
+         url('nord_bold-webfont.woff') format('woff'),
+         url('nord_bold-webfont.ttf') format('truetype'),
+         url('nord_bold-webfont.svg#nordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nordlight';
+    src: url('../fonts/nord_light-webfont.eot');
+    src: url('../fonts/nord_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nord_light-webfont.woff2') format('woff2'),
+         url('../fonts/nord_light-webfont.woff') format('woff'),
+         url('../fonts/nord_light-webfont.ttf') format('truetype'),
+         url('../fonts/nord_light-webfont.svg#nordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nordmedium';
+    src: url('../fonts/nord_medium-webfont.eot');
+    src: url('../fonts/nord_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nord_medium-webfont.woff2') format('woff2'),
+         url('../fonts/nord_medium-webfont.woff') format('woff'),
+         url('../fonts/nord_medium-webfont.ttf') format('truetype'),
+         url('../fonts/nord_medium-webfont.svg#nordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nordregular';
+    src: url('../fonts/nord_regular-webfont.eot');
+    src: url('../fonts/nord_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nord_regular-webfont.woff2') format('woff2'),
+         url('../fonts/nord_regular-webfont.woff') format('woff'),
+         url('../fonts/nord_regular-webfont.ttf') format('truetype'),
+         url('../fonts/nord_regular-webfont.svg#nordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jura Demibold';
+    src: url('../fonts/jura-demibold-webfont.eot');
+    src: url('../fonts/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jura-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/jura-demibold-webfont.woff') format('woff'),
+         url('../fonts/jura-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background: url('../img/background.png') no-repeat;
+  font-family: 'Jura Demibold';
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #3e2318
+}
+.main {
+  width: 100%;
+  height: 100%;
+  margin-top: 15%;
+  /*background-color: gray;*/
+}
+.first_line, .second_line, .third_line, .fourth_line {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #3e2318;
+  margin-top: 25px;
+}
+.first_line {
+  text-transform: uppercase;
+  font-size: 65px;
+}
+.next {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+.sec {
+  text-transform: none;
+  font-size: 45px;
+}
+.prev {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+.quot_wrap {
+  font-family: 'bad_scriptregular';
+  color: red;
+  font-size: 30px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 600px;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.quot {
+  padding: 10px;
+}
+.quot_under {
+  text-align: right;
+  padding: 20px 23px 10px 10px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.market {
+  display: block;
+  margin: 0 auto;
+  width: 783px;
+}
+.secry {
+  margin-top: 3%;
+}
+.principles {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+.first_priciple, .second_priciple {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.first_priciple span {
+  font-size: 90px;
+}
+.underline {
+  font-family: 'bad_scriptregular';
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+}
+.second_priciple span {
+  font-size: 90px;
+}
+/*меню*/
+
+.header {
+  width: 100%;
+  height: 150px;
+}
+.menu {
+  text-align: center;
+  padding-top: 1%;
+}
+.menu__item {
+    list-style: none;
+    margin-right: 2.5%;
+    display: inline-block;
+}
+.menu__link {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+.submenu {
+    /*background-color: #333333;*/
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    margin-left: -245px;
+    margin-top: 10px;
+}
+.submenu li {
+    margin: 10px;
+    padding: 10px;
+    width: 490px;
+    float: none;
+}
+.submenu a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    /*padding: 5px 20px 5px 8px;*/
+}
+.submenu_text {
+  font-family: 'bad_scriptregular';
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.submenu:last-child a {
+    padding-bottom: 10px;
+}
+menu li:hover ul {
+    display: block;
+}
+.fourie {
+  display: block;
+  width: 711px;
+  margin: 40px auto;
+}
+.images {
+  text-align: center;
+  width: auto;
+  height: 300px;
+  margin: 40px auto;
+}
+.images img {
+  margin-right: 10px;
+}
+.images img:last-child {
+  margin-left: 20px;
+}
+.factory {
+  text-align: center;
+  width: auto;
+  height: 300px;
+  margin: 20px auto;
+}
+.secry2 {
+  margin-top: 0;
+}
+.text, .text2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.next_page {
+  color: #3e2318;
+  font-size: 30px;
+  text-decoration: none;
+}
